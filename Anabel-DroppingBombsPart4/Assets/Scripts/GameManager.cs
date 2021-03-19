@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
 public class GameManager : MonoBehaviour
 {
     private Spawner spawner;
@@ -88,9 +87,9 @@ public class GameManager : MonoBehaviour
 
         score = scoreSystem.GetComponent<Score>().score;
     }
-    /*void SplashScreen()
+    void SplashScreen()
     {
-        smokeCleared = true;
+        //smokeCleared = true;
         splash.SetActive(true);
-    }*/
+    }
 }
