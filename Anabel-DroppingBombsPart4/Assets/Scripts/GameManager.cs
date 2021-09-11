@@ -82,7 +82,7 @@ public class GameManager : MonoBehaviour
     {
         spawner.active = false;
         gameStarted = false;
-
+//cheese
         Invoke("SplashScreen", 2f);
 
         score = scoreSystem.GetComponent<Score>().score;
